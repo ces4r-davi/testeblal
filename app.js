@@ -1,6 +1,6 @@
 let listaDeNumeros = [];
 
-let numMax = 10;
+let numMax = 100;
 
 let numSec = gerarNumero();
 
@@ -16,7 +16,10 @@ function exibirTexto(tag, texto) {
 function exibirTextoInicial() {
   exibirTexto("h1", "aoba, bão?");
 
-  exibirTexto("p", "escolhe um numero ai, c tem q acertar ele(de 1 a 10)");
+  exibirTexto(
+    "p",
+    "escolhe um numero ai, c tem q acertar ele(de 1 a " + numMax + ")"
+  );
 }
 
 exibirTextoInicial();
