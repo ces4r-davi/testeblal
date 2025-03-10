@@ -42,7 +42,7 @@ function verificarChute() {
 
     exibirTexto("p", "o número do mau é maior que " + chute + " seu otario");
   } else if (chute > numSec) {
-    exibirTexto("h1", "ta errado burro");
+    exibirTexto("h1", "ta errado burro00");
 
     exibirTexto("p", "o número do mau é menor que " + chute + " seu otario");
   }
